@@ -1,6 +1,9 @@
+import api from "../utils/api";
+
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import API from "../utils/api";
+import axios from "axios";
+
 
 export default function Dashboard() {
   const [polls, setPolls] = useState([]);
